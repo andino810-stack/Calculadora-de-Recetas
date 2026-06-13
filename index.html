@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" type="text/css" href="/estilo.css">
+</head>
+<body>
+<div class="container">
+    <h1>Calculadora</h1>
+
+    <label for="receta">Seleccionar:</label>
+    <select id="receta">
+        <option value="mutabal">Mutabal</option>
+        <option value="hummus">Hummus</option>
+        <option value="nino">Niño envuelto</option>
+    </select>
+
+    <label for="pesoBase">Peso del ingrediente:</label>
+    <input type="number" id="pesoBase" placeholder="Ej: 995">
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="resultado"></div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
