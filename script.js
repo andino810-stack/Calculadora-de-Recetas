@@ -10,7 +10,7 @@ function calcular() {
     let r = {};
 
     if (receta === "hummus") {
-        // Basado en 775 g → tus proporciones exactas
+    
         r.tahine = Math.floor(peso * (185/775));
         r.limon = Math.floor(peso * (90/775));
         r.aceite = Math.floor(peso * (80/775));
@@ -20,7 +20,7 @@ function calcular() {
     }
 
     if (receta === "mutabal") {
-        // Basado en 995 g → tus proporciones exactas
+    
         r.tahine = Math.floor(peso * (220/995));
         r.limon = Math.floor(peso * (115/995));
         r.aceite = Math.floor(peso * (90/995));
