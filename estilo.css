@@ -63,3 +63,15 @@ button:hover {
     font-size: 18px;
     color: #5a4525;
 }
+
+
+.footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    color:#666;
+    font-size:14px;
+    border-top:1px solid #ddd;
+}
+
+
